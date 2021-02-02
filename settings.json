@@ -1,0 +1,56 @@
+// settings > live sass > live sass compiler > settings.json
+// settings > live sass map > live sass compiler > settings.json
+//live sass map
+// relative path:
+// code ~/.config/Code/User/settings.json
+
+// absolute path:
+// cd ~
+// pwd
+// code /home/user/.config/Code/User/settings.json
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "git-autoconfig.configList": [
+    {
+      "user.email": "sergithewinner@gmail.com",
+      "user.name": "sergithewinner"
+    },
+    {}
+  ],
+  "workbench.colorTheme": "Material Theme Palenight",
+  "workbench.iconTheme": "vscode-icons",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 1,
+  "emmet.excludeLanguages": ["markdown"],
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.editor.enablePreview": true,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "files.autoSave": "off",
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "editor.codeActionsOnSave": null,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.userWords": ["addvallue"],
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      // "format": "expanded",
+      // "extensionName": "min.css",
+      // "extensionName": ".css",
+      "savePath": "/css"
+      // "savePath": "css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false
+}
